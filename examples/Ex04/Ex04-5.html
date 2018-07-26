@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example 04-5 Basic Nav</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        .navItem {
+            text-align: center;
+            padding: 16px;
+        }
+
+        .navItem:hover {
+            filter: invert(100%);
+        }
+    </style>
+</head>
+<body>
+    <nav style="display: flex; justify-content: space-between;">
+        <div class="navItem" style="background-color: lightgreen;">Home</div>
+        <div class="navItem" style="background-color: lightseagreen;
+                                    margin-right: auto;">Search</div>
+        <div class="navItem" style="background-color: lightsalmon">Logout</div>
+    </nav>
+</body>
+</html>
